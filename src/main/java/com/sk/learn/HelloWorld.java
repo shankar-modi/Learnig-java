@@ -8,6 +8,6 @@ package com.sk.learn;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("This is the first java program commit.");
+		System.out.println("This is the first java program commit to branch.");
 	}
 }
