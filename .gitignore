@@ -1,2 +1,4 @@
 #Ignoring .classpath,.settings and .project
 .*
+#target folder
+target
