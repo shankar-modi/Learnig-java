@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 /**
  * 
- * @author Shankar Modi Creating List form Array using Arrays.asList()
+ * @author Shankar Modi.
+ *  Creating List form Array using Arrays.asList()
  */
 public class ArrayToList {
 
@@ -45,7 +46,7 @@ public class ArrayToList {
 		System.out.println("--------------------");
 		System.out.println(Arrays.toString(arr));
 
-		//list.add("test");
+		// list.add("test");
 		sc.close();
 
 	}
