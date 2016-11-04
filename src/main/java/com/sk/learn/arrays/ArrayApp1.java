@@ -12,7 +12,7 @@ public class ArrayApp1 {
 		int [] x = new int[2];
 		int [] y = x;
 		/*
-		 * both references x & y pointing to same array object.
+		 * both reference x & y pointing to same array object.
 		 */
 		x[0] = 10;
 		x[1] = 20;
