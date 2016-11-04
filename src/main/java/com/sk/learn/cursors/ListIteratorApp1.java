@@ -29,17 +29,19 @@ public class ListIteratorApp1 {
 		 */
 		ListIterator<Integer> ltr = list.listIterator();
 		/**
-		 * We can add object to List using ListIterators' add method. add()
-		 * method will add new object to left side wherever iterator is
-		 * pointing. E.g here iterator is pointing to 50 , so add() will add 100
-		 * for left side of 50.
+		 * We can add object to List using ListIterators' add method. 
+		 * add() method will add new object to left side wherever iterator is pointing.
+		 * 
+		 * E.g.
+		 * here Listiterator is pointing to 50 , so add() will add 100
+		 * to left side of 50.
 		 * 
 		 * so our output will be
 		 * 
 		 * List --------------- [50, 40, 30, 20, 10]
 		 * 
 		 * listIterator --------------- 50 40 30 20 10 -- here 100 is not
-		 * printing because listIterator reference pointing to 50 and we added
+		 * printing because listIterator reference pointing to 50 and we listIterator added
 		 * new Object before 50.
 		 * 
 		 * List After iterator --------------- [100, 50, 40, 30, 20, 10]
