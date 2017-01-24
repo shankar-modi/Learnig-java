@@ -25,7 +25,7 @@ public class Main {
 
 	}
 	
-	// OUTPOT
+	// OUTPUT
 	// Child
 	// Parent
 }
