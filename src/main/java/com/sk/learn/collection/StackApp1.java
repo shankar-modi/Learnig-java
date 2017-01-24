@@ -27,6 +27,8 @@ public class StackApp1 {
 		PrintUtil.print("Peek", s.peek());
 		/**
 		 * pop() return and remove Top element.
+		 * If we Pop empty stack then we'll get 
+		 * RTE :  java.util.EmptyStackException
 		 */
 		PrintUtil.print("Pop", s.pop());
 		PrintUtil.print("After Pop", s);
